@@ -1,0 +1,203 @@
+{
+  "package": "axz-csl-kernel",
+  "version": "1.0.0-green-ci",
+  "files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "sha256": "70fa148c67e54c77b54cdde99561a9fd629a9e4402cc873f408f30ce646cb8ae",
+      "size": 1359
+    },
+    {
+      "path": "AXZ/CSL/ContactMap.lean",
+      "sha256": "afc34ff2894f0cf079f78e1547fceb0a58ab24e99e5a33ab601affce772bdfc6",
+      "size": 1338
+    },
+    {
+      "path": "AXZ/CSL/Core.lean",
+      "sha256": "3a66928048bf3c9299be179436854095f514d2412f02e8b73faba0ec5affadc5",
+      "size": 1136
+    },
+    {
+      "path": "AXZ/CSL/Example.lean",
+      "sha256": "5e64368909cb7c0b791864bc5701387055e50af2fe683d93150f99d9ee0fc4d2",
+      "size": 2669
+    },
+    {
+      "path": "AXZ/CSL/FlatnessDecoder.lean",
+      "sha256": "05b0a351e2151580b719d759aa0b9cc7bb8e853d97ba137cd02c684e778f6ef1",
+      "size": 874
+    },
+    {
+      "path": "AXZ/CSL/Kink.lean",
+      "sha256": "82a16eddbdd5c9c83787608d97200cf94a692da84589d3bf9f4443d5cd7a40f1",
+      "size": 1823
+    },
+    {
+      "path": "AXZ/CSL/Main.lean",
+      "sha256": "702997eb02fd5243031205188974b010154b2b8744801aa0c1a670a38122159b",
+      "size": 908
+    },
+    {
+      "path": "AXZ/CSL/Trace.lean",
+      "sha256": "f8dbc919cb140c66b8eef83218b5c30f9a461b7fa1243eada45c39552504fb9e",
+      "size": 3872
+    },
+    {
+      "path": "AXZ/CSL.lean",
+      "sha256": "2e9d4795407c1849be7217dc9f208c8475b27795ed9b6495b1b038cfa70befb6",
+      "size": 161
+    },
+    {
+      "path": "AXZ.lean",
+      "sha256": "b194e586d0ea427d373dcdd09a19090c58951e597f2384c42fb1792f232ea0bb",
+      "size": 15
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "e4f441d2a136c84174257d8e38ec179a49fedbf63bedad0603d77ae2c52a3688",
+      "size": 314
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "ca8e3d2fb76cece43e2db9ac4b5d34a0e34fd3e10a8f9095d71b0596d5f586a0",
+      "size": 120
+    },
+    {
+      "path": "COMMERCIAL.md",
+      "sha256": "ee95392a25c61accbe254233ee364e9ca1fafa8f076b6f34b3b4ffcf45d769a9",
+      "size": 2462
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e91672ec8394e28227a59630131bb485e91ef9447bbc6fe13c209e257e941fba",
+      "size": 354
+    },
+    {
+      "path": "Examples/demo_trace.json",
+      "sha256": "4b124f9f256088d1861f51727ae02f9107b93a4232435748ed90178445c56be0",
+      "size": 1161
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0fb2d71745eefd9c0eee8e4cee0565eb90a5e40e6e3331ed112f185bd94f141b",
+      "size": 1078
+    },
+    {
+      "path": "Main.lean",
+      "sha256": "5a9905eefdd23dfe93a8d1b2794ea224f39fda810e9e6641b966ca82d5a850bf",
+      "size": 220
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "bc478b6979b85013e6dc31a012bcc57216dccdfa786264406618892ba576b5b1",
+      "size": 229
+    },
+    {
+      "path": "README.md",
+      "sha256": "ec74edec03997c03d834fa31640accc98672bf77c3ec313baeb55b341e4b1069",
+      "size": 3867
+    },
+    {
+      "path": "RELEASE.md",
+      "sha256": "41a61c9515865916e003733fd92a192a9d710ae3648d92007cf1e9326a0c3e13",
+      "size": 350
+    },
+    {
+      "path": "Runtime/python/axz_csl_reference.py",
+      "sha256": "86bb0908fcbccc3804485a0c2c06e15f69840d942014ae6409109864a4874235",
+      "size": 3729
+    },
+    {
+      "path": "Runtime/python/test_reference.py",
+      "sha256": "feff74818c6d0b68dbafcce3f75cefd0b87897b929a6daeec906148cf17053f6",
+      "size": 411
+    },
+    {
+      "path": "Runtime/rust/Cargo.toml",
+      "sha256": "fe9b5b113d59b6ddf542d1528a6b1a23604ee9bb027a565974b957aac397addd",
+      "size": 198
+    },
+    {
+      "path": "Runtime/rust/src/lib.rs",
+      "sha256": "b1143038b95a09b198441fb3d755ed3f617d48ab10532ef08046c32f8d1c05f3",
+      "size": 3437
+    },
+    {
+      "path": "Runtime/rust/src/main.rs",
+      "sha256": "75d16622a46355b53497f28deb348cca8d3482e5df7c6e2c4c3a0dbac21afab8",
+      "size": 157
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "282103e5b67adc9be9d877a09b91b66f269cbbd4505653088ec9105458920e32",
+      "size": 235
+    },
+    {
+      "path": "TESTED_STATUS.md",
+      "sha256": "7f7ccc689f6ad3ca202dcbe9026469117264e05b438e59945b3d1fa3deeb26ca",
+      "size": 1000
+    },
+    {
+      "path": "UPLOAD_CHECKLIST.md",
+      "sha256": "fb50423058dcfe55185fa9a9f3a74eadaa55c7824113af27b8c730d8bc1202ff",
+      "size": 1232
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "2f4d8a20fb8b8b90686f18000aec3a035c106919a85c27b5e422f2c1b3282195",
+      "size": 607
+    },
+    {
+      "path": "docs/COMMERCIAL_MODEL.md",
+      "sha256": "88978844fc7766f051b6fe16782dee0c723057164a3d91a7733f29b4106ad80a",
+      "size": 548
+    },
+    {
+      "path": "docs/ENTERPRISE.md",
+      "sha256": "74b670cbfb9c24130ff12f0ad7e9b01a99ed24b58fb0203bc3bc16612b3f08ae",
+      "size": 725
+    },
+    {
+      "path": "docs/MATH.md",
+      "sha256": "eaa33387040a4b3b5aeeda0eea9973bb73bf9102fc3339120a9c951cd1e96dda",
+      "size": 814
+    },
+    {
+      "path": "docs/SCOPE.md",
+      "sha256": "2d1d3f6ae54622c31edb84e10b6493248efbe3067fa1b9eef89eb8c1461d7ec8",
+      "size": 620
+    },
+    {
+      "path": "docs/TRACE_FORMAT.md",
+      "sha256": "4d4f37f7a94164b7135869582117300b41ef015822565211cca78c51f6e2cd7f",
+      "size": 431
+    },
+    {
+      "path": "docs/assets/snelling-contact-defect-totality-map.png",
+      "sha256": "031f9746c4beb37abb9671ea6a2d119e8636a9668ba6be20e5ed07311c8761f2",
+      "size": 756297
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e3361895e5a0d04980990393a188ae717c3977c242555764b7a221e62f8b2ac4",
+      "size": 160
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+      "size": 25
+    },
+    {
+      "path": "scripts/audit_lean_sources.py",
+      "sha256": "f58f2df83c1ea170724853fc702f878e4efd4178651d70b4f6855fce8c5fc009",
+      "size": 1648
+    }
+  ],
+  "tested": {
+    "python_reference_runtime": "pass",
+    "python_pytest": "pass",
+    "lean_source_audit": "pass",
+    "lean_lake_build": "not run in sandbox",
+    "rust_cargo": "not run in sandbox; previously passed in GitHub Actions during setup"
+  }
+}

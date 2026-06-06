@@ -1,0 +1,10 @@
+name = "axz-csl-kernel"
+version = "1.0.0"
+defaultTargets = ["AXZ", "axz-csl-demo"]
+
+[[lean_lib]]
+name = "AXZ"
+
+[[lean_exe]]
+name = "axz-csl-demo"
+root = "Main"

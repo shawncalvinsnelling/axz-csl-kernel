@@ -1,0 +1,5 @@
+AXZ-CSL Kernel
+Copyright (c) 2026 Shawn Calvin Snelling.
+
+This project formalizes finite replay receipt checking under declared local laws.
+It does not assert external physical correctness or global complexity-theoretic results.

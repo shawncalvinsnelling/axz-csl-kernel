@@ -1,0 +1,13 @@
+[package]
+name = "axz-csl-runtime"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "axz_csl_runtime"
+path = "src/lib.rs"
+
+[[bin]]
+name = "axz-csl-runtime-demo"
+path = "src/main.rs"

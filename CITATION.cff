@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "AXZ-CSL Kernel: Verified Sparse-State Trace Replay"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: Snelling
+    given-names: Shawn Calvin
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/shawncalvinsnelling/axz-csl-kernel"

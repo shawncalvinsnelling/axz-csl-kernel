@@ -1,0 +1,49 @@
+{
+  "format": "axz-csl-trace-v1",
+  "initial": {
+    "dimension": 3,
+    "active": [
+      {"coord": 0, "num": 3, "den": 1},
+      {"coord": 0, "num": -3, "den": 1},
+      {"coord": 1, "num": 5, "den": 1},
+      {"coord": 1, "num": -5, "den": 1},
+      {"coord": 2, "num": 7, "den": 1},
+      {"coord": 2, "num": -7, "den": 1}
+    ]
+  },
+  "steps": [
+    {
+      "rule": "kinkElimination",
+      "coord": 0,
+      "scalar": {"num": 3, "den": 1},
+      "target": {
+        "dimension": 3,
+        "active": [
+          {"coord": 1, "num": 5, "den": 1},
+          {"coord": 1, "num": -5, "den": 1},
+          {"coord": 2, "num": 7, "den": 1},
+          {"coord": 2, "num": -7, "den": 1}
+        ]
+      }
+    },
+    {
+      "rule": "kinkElimination",
+      "coord": 1,
+      "scalar": {"num": 5, "den": 1},
+      "target": {
+        "dimension": 3,
+        "active": [
+          {"coord": 2, "num": 7, "den": 1},
+          {"coord": 2, "num": -7, "den": 1}
+        ]
+      }
+    },
+    {
+      "rule": "kinkElimination",
+      "coord": 2,
+      "scalar": {"num": 7, "den": 1},
+      "target": {"dimension": 3, "active": []}
+    }
+  ],
+  "decoder": "flat-empty"
+}
