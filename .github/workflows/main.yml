@@ -1,0 +1,60 @@
+name: AXZ-CSL Green CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  python:
+    name: Python reference runtime
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python test tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+
+      - name: Run reference runtime
+        run: python Runtime/python/axz_csl_reference.py
+
+      - name: Run Python tests
+        run: python -m pytest Runtime/python/test_reference.py
+
+  rust:
+    name: Rust runtime scaffold
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Runtime/rust
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Run Rust tests
+        run: cargo test
+
+      - name: Run Rust demo
+        run: cargo run --bin axz-csl-runtime-demo
+
+  lean-source-audit:
+    name: Lean source audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit Lean sources for blocked proof placeholders and known bad symbols
+        run: python scripts/audit_lean_sources.py
